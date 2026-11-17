@@ -1,0 +1,333 @@
+{
+ "caat01": {
+  "total_facturas": 45,
+  "valor_total": 1047005000,
+  "exactos": 2,
+  "exactos_lista": [
+   {
+    "factura": "SCA-1008",
+    "concepto": "INT-API",
+    "valor": 24800000
+   },
+   {
+    "factura": "SCA-1010",
+    "concepto": "LIC-PLAT",
+    "valor": 18500000
+   }
+  ],
+  "candidatos_aprox": 12,
+  "aproximados": 3,
+  "aproximados_lista": [
+   {
+    "factura_a": "SCA-1012",
+    "factura_b": "SCA-1902",
+    "concepto": "INS-ACO",
+    "valor_a": 41300000,
+    "valor_b": 41465000,
+    "dias": 19,
+    "misma_os": true,
+    "sin_acta": true
+   },
+   {
+    "factura_a": "SCA-1011",
+    "factura_b": "SCA-1901",
+    "concepto": "INS-CONT",
+    "valor_a": 32000000,
+    "valor_b": 31840000,
+    "dias": 11,
+    "misma_os": true,
+    "sin_acta": true
+   },
+   {
+    "factura_a": "SCA-1036",
+    "factura_b": "SCA-1900",
+    "concepto": "INS-CONT",
+    "valor_a": 32000000,
+    "valor_b": 32000000,
+    "dias": 6,
+    "misma_os": true,
+    "sin_acta": true
+   }
+  ],
+  "en_verificacion": 3,
+  "verificacion_lista": [
+   {
+    "factura_a": "SCA-1008",
+    "factura_b": "SCA-1013",
+    "concepto": "INT-API",
+    "valor_a": 24800000,
+    "valor_b": 24800000,
+    "dias": 28,
+    "misma_os": false,
+    "sin_acta": true
+   },
+   {
+    "factura_a": "SCA-1901",
+    "factura_b": "SCA-1016",
+    "concepto": "INS-CONT",
+    "valor_a": 31840000,
+    "valor_b": 32000000,
+    "dias": 16,
+    "misma_os": false,
+    "sin_acta": true
+   },
+   {
+    "factura_a": "SCA-1902",
+    "factura_b": "SCA-1018",
+    "concepto": "INS-ACO",
+    "valor_a": 41465000,
+    "valor_b": 41300000,
+    "dias": 25,
+    "misma_os": false,
+    "sin_acta": true
+   }
+  ],
+  "sin_acta": 6,
+  "sin_acta_valor": 158305000,
+  "dif_os": 2,
+  "dif_os_valor": 4230000,
+  "monto_duplicado": 148605000
+ },
+ "caat02": {
+  "lecturas": 70560,
+  "dispositivos": 98,
+  "negativos": 57,
+  "sobre_capacidad": 35,
+  "fuera_area": 43,
+  "congelados": [
+   "CNT-017",
+   "CNT-044",
+   "CNT-061",
+   "ACO-05"
+  ],
+  "manuales": 73,
+  "manuales_no_aut": 65,
+  "manual_por_usuario": {
+   "jrios.sca": 26,
+   "admin": 16,
+   "soporte.sca": 15,
+   "operador.amb": 8,
+   "mcastro.alc": 8
+  },
+  "anomalas": 208,
+  "pct_anomalas": 0.29
+ },
+ "caat04": {
+  "mad_sensor": 0.0021,
+  "mad_manual": 0.1553,
+  "obs_sensor": {
+   "1": 0.302,
+   "2": 0.179,
+   "3": 0.123,
+   "4": 0.1,
+   "5": 0.08,
+   "6": 0.063,
+   "7": 0.059,
+   "8": 0.048,
+   "9": 0.046
+  },
+  "obs_manual": {
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.11,
+   "6": 0.247,
+   "7": 0.26,
+   "8": 0.233,
+   "9": 0.151
+  },
+  "esperado": {
+   "1": 0.301,
+   "2": 0.176,
+   "3": 0.125,
+   "4": 0.097,
+   "5": 0.079,
+   "6": 0.067,
+   "7": 0.058,
+   "8": 0.051,
+   "9": 0.046
+  }
+ },
+ "caat03": {
+  "eventos": 6000,
+  "privilegiados": 481,
+  "no_autorizados": 813,
+  "fuera_horario": 335,
+  "ip_externa": 438,
+  "priv_sin_ticket": 248,
+  "criticos": 22,
+  "cuentas_genericas": 236,
+  "no_aut_por_usuario": {
+   "jrios.sca": 352,
+   "admin": 236,
+   "mcastro.alc": 119,
+   "soporte.sca": 102,
+   "operador.amb": 4
+  },
+  "criticos_por_usuario": {
+   "jrios.sca": 13,
+   "admin": 6,
+   "soporte.sca": 2,
+   "mcastro.alc": 1
+  }
+ },
+ "caat05": {
+  "entregables": [
+   {
+    "id": "E1",
+    "entregable": "Diseño de arquitectura y plan de despliegue",
+    "plan": "2028-03-15",
+    "real": "2028-04-20",
+    "acta": "Sí",
+    "retraso_dias": 36
+   },
+   {
+    "id": "E2",
+    "entregable": "Instalación de 80 sensores en contenedores",
+    "plan": "2028-05-31",
+    "real": "2028-10-25",
+    "acta": "No",
+    "retraso_dias": 147
+   },
+   {
+    "id": "E3",
+    "entregable": "Telemetría en 12 vehículos recolectores",
+    "plan": "2028-06-15",
+    "real": "2028-10-30",
+    "acta": "No",
+    "retraso_dias": 137
+   },
+   {
+    "id": "E4",
+    "entregable": "6 puntos de acopio con báscula IoT conectada",
+    "plan": "2028-06-30",
+    "real": "Pendiente",
+    "acta": "No",
+    "retraso_dias": 153
+   },
+   {
+    "id": "E5",
+    "entregable": "Plataforma en la nube en producción",
+    "plan": "2028-05-15",
+    "real": "2028-09-05",
+    "acta": "Parcial",
+    "retraso_dias": 113
+   },
+   {
+    "id": "E6",
+    "entregable": "Tableros para la Secretaría de Medio Ambiente",
+    "plan": "2028-07-31",
+    "real": "Pendiente",
+    "acta": "No",
+    "retraso_dias": 122
+   },
+   {
+    "id": "E7",
+    "entregable": "Protocolo de calibración y certificados",
+    "plan": "2028-05-31",
+    "real": "Pendiente",
+    "acta": "No",
+    "retraso_dias": 183
+   },
+   {
+    "id": "E8",
+    "entregable": "Modelo de gobierno de datos",
+    "plan": "2028-04-30",
+    "real": "Pendiente",
+    "acta": "No",
+    "retraso_dias": 214
+   }
+  ],
+  "retraso_prom": 138,
+  "con_acta": 1,
+  "retraso_mayor_120": 6
+ },
+ "madurez": [
+  {
+   "id": "EDM01",
+   "proceso": "Asegurar el establecimiento y mantenimiento del marco de gobierno",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "EDM03",
+   "proceso": "Asegurar la optimización del riesgo",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "APO10",
+   "proceso": "Gestionar los proveedores",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "APO12",
+   "proceso": "Gestionar el riesgo",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "APO14",
+   "proceso": "Gestionar los datos",
+   "actual": 0,
+   "objetivo": 3,
+   "brecha": 3
+  },
+  {
+   "id": "BAI01",
+   "proceso": "Gestionar los programas",
+   "actual": 2,
+   "objetivo": 3,
+   "brecha": 1
+  },
+  {
+   "id": "BAI03",
+   "proceso": "Gestionar la identificación y construcción de soluciones",
+   "actual": 2,
+   "objetivo": 3,
+   "brecha": 1
+  },
+  {
+   "id": "BAI07",
+   "proceso": "Gestionar la aceptación y transición del cambio",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "DSS05",
+   "proceso": "Gestionar los servicios de seguridad",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "DSS06",
+   "proceso": "Gestionar los controles de procesos de negocio",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "MEA01",
+   "proceso": "Monitorizar el desempeño y la conformidad",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  },
+  {
+   "id": "MEA03",
+   "proceso": "Monitorizar el cumplimiento de requisitos externos",
+   "actual": 1,
+   "objetivo": 3,
+   "brecha": 2
+  }
+ ],
+ "madurez_prom": 1.08
+}
